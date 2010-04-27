@@ -4,10 +4,10 @@ Copyright 2010 Jonathan Oxer <jon@freetronics.com>
 Practical Arduino: <www.practicalarduino.com>  
 Freetronics: <www.freetronics.com>
 
- +--------------------------------------------------------------------+
- | WARNING: THIS IS A WORK IN PROGRESS AND PROBABLY BROKEN RIGHT NOW. |
- | DON'T TRY TO FAB THIS BOARD OR IT WILL BE A WASTE OF TIME / MONEY! |
- +--------------------------------------------------------------------+
+************************************************************************
+** WARNING: THIS IS A WORK IN PROGRESS AND PROBABLY BROKEN RIGHT NOW. **
+** DON'T TRY TO FAB THIS BOARD OR IT WILL BE A WASTE OF TIME / MONEY! **
+************************************************************************
 
 10/100base-T Ethernet shield for the Arduino Duemilanove microcontroller
 and other boards based on the same header format, such as the TwentyTen,
