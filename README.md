@@ -23,6 +23,8 @@ Features:
  * Power-over-Ethernet "PD" (powered device) support.
  * Activity / status indicators.
  * Reset button wired through to Arduino reset pin.
+ * Wiznet W5100 IC reset circuit.
+ * SPI bus contention fixed for W5100 IC.
  * Parts overlay on both the top and the bottom.
 
 
