@@ -4,11 +4,6 @@ Copyright 2010 Freetronics Pty Ltd
 Freetronics site:  <www.freetronics.com>  
 Freetronics email: <info@freetronics.com>  
 
-************************************************************************
-** WARNING: THIS IS A WORK IN PROGRESS AND PROBABLY BROKEN RIGHT NOW. **
-** DON'T TRY TO FAB THIS BOARD OR IT WILL BE A WASTE OF TIME / MONEY! **
-************************************************************************
-
 10/100base-T Ethernet shield for the Arduino Duemilanove, TwentyTen,
 and other boards based on the same header format.
 
