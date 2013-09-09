@@ -1,11 +1,11 @@
 Freetronics Ethernet Shield
 ===========================
-Copyright 2010 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Copyright 2010-2012 Freetronics Pty Ltd  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
-10/100base-T Ethernet shield for the Arduino Duemilanove, TwentyTen,
-and other boards based on the same header format.
+10/100base-T Ethernet shield for the Freetronics Eleven, Arduino Uno,
+and other boards compatible with the R3 header format.
 
 Includes significant prototyping area using the spare shield area, and
 supports Power-over-Ethernet (PoE) using either simple jumpers for DIY
@@ -25,7 +25,7 @@ Features:
 
 More information is available on our product page at:
 
-  http://www.freetronics.com/products/ethernet-shield
+  http://www.freetronics.com/ethernet
 
 The "docs" folder within this repository includes a handy copy of the
 schematic in PDF format and image(s) of the pcb.
@@ -37,7 +37,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> EthernetShield.
+navigate to Projects -> eagle -> EthernetShieldR3.
 
 
 DISTRIBUTION
