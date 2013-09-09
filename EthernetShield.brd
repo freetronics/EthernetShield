@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -731,7 +731,7 @@
 <wire x1="27.305" y1="32.512" x2="24.511" y2="32.512" width="0.254" layer="22" curve="-180"/>
 <circle x="2.032" y="35.814" radius="1.016" width="1.016" layer="41"/>
 <circle x="48.26" y="5.588" radius="1.016" width="1.016" layer="41"/>
-<text x="25.908" y="29.718" size="1.27" layer="22" font="vector" ratio="16" rot="SMR270">(c) 2013 Freetronics</text>
+<text x="23.368" y="33.528" size="1.27" layer="22" font="vector" ratio="16" rot="SMR270">(c) 2013 Freetronics</text>
 <text x="19.685" y="0.7366" size="1.016" layer="21" font="vector" ratio="15">RESET</text>
 <text x="46.6852" y="8.636" size="1.27" layer="21" font="vector" ratio="16">GND</text>
 <text x="42.6974" y="43.307" size="1.27" layer="21" font="vector" ratio="16">5V</text>
@@ -764,7 +764,7 @@
 <text x="22.86" y="47.371" size="0.8128" layer="21" font="vector" ratio="15">REF</text>
 <text x="23.622" y="48.387" size="0.8128" layer="21" font="vector" ratio="15">A</text>
 <text x="25.4" y="48.26" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
-<text x="67.6402" y="5.8674" size="1.1684" layer="21" font="vector" ratio="17" rot="R90">Ethernet Shield R3</text>
+<text x="67.6402" y="7.3914" size="1.1684" layer="21" font="vector" ratio="17" rot="R90">Ethernet Shield</text>
 <text x="30.1244" y="42.9006" size="1.27" layer="22" font="vector" ratio="18" rot="SMR270">5V</text>
 <text x="46.609" y="5.08" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">VIN</text>
 <text x="44.196" y="4.191" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
@@ -810,14 +810,14 @@
 <text x="24.4094" y="10.4902" size="1.4224" layer="21" ratio="18" rot="R90">7-48V</text>
 <text x="24.1046" y="18.161" size="1.27" layer="21" ratio="18" rot="R90">!</text>
 <text x="22.606" y="13.0302" size="1.6764" layer="21" ratio="18" rot="R90">PoE</text>
-<text x="27.94" y="9.144" size="0.762" layer="21" font="vector" ratio="15">www.freetronics.com/ethernet</text>
+<text x="27.178" y="9.144" size="1.016" layer="21" font="vector" ratio="15">www.freetronics.com/es</text>
 <text x="19.05" y="8.3312" size="0.8128" layer="21" font="vector" ratio="17">freetronics</text>
 <text x="29.8704" y="13.1826" size="1.27" layer="22" font="vector" ratio="18" rot="SMR270">GND</text>
 <text x="17.145" y="38.1" size="1.016" layer="21" ratio="15">RST</text>
 <text x="17.145" y="39.37" size="1.016" layer="21" ratio="15">WIZ</text>
-<text x="21.844" y="40.894" size="1.4224" layer="22" font="vector" ratio="16" rot="SMR270">www.freetronics.com/ethernet</text>
+<text x="21.336" y="35.56" size="1.4224" layer="22" font="vector" ratio="16" rot="SMR270">www.freetronics.com/es</text>
 <text x="26.416" y="43.053" size="1.27" layer="22" font="vector" ratio="16" rot="SMR270">freetronics</text>
-<text x="24.003" y="26.543" size="1.27" layer="22" font="vector" ratio="16" rot="SMR270">SKU: SH-ETHERNET</text>
+<text x="18.415" y="1.905" size="1.27" layer="22" font="vector" ratio="16" rot="SMR0">v2.0    SKU: ES</text>
 <rectangle x1="32.766" y1="5.207" x2="33.274" y2="6.35" layer="21"/>
 <rectangle x1="35.306" y1="3.81" x2="35.814" y2="4.953" layer="21"/>
 <rectangle x1="32.766" y1="3.81" x2="33.274" y2="4.064" layer="21"/>
@@ -1004,7 +1004,6 @@
 <rectangle x1="18.542" y1="46.99" x2="19.05" y2="47.244" layer="22"/>
 <text x="22.352" y="48.26" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SDA</text>
 <text x="19.812" y="47.371" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SCL</text>
-<text x="66.1162" y="4.5974" size="1.1684" layer="21" font="vector" ratio="17" rot="R90">v2.0</text>
 <wire x1="62.992" y1="31.75" x2="62.23" y2="30.988" width="0.254" layer="22"/>
 <wire x1="62.23" y1="24.892" x2="62.992" y2="24.13" width="0.254" layer="22"/>
 <wire x1="62.992" y1="24.13" x2="66.802" y2="24.13" width="0.254" layer="22"/>

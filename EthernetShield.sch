@@ -13921,8 +13921,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="96.52" y="365.76" size="3.81" layer="94" ratio="12">Prototyping Area</text>
 <text x="7.62" y="12.7" size="3.048" layer="94">Freetronics Ethernet Shield for Arduino</text>
 <text x="81.28" y="6.858" size="1.778" layer="94">V2.0 (3-Jul-2013)</text>
-<text x="7.366" y="6.858" size="1.778" layer="94">www.freetronics.org</text>
-<text x="40.64" y="6.858" size="1.778" layer="94">SH-ETHERNET</text>
+<text x="7.366" y="6.858" size="1.778" layer="94">www.freetronics.org/es</text>
+<text x="48.26" y="6.858" size="1.778" layer="94">SKU: ES</text>
 <text x="33.02" y="177.8" size="1.778" layer="94">3V3 Power Supply</text>
 <text x="195.58" y="177.8" size="1.778" layer="94">Status Display</text>
 <text x="142.24" y="177.8" size="1.778" layer="94">5V Power / Reset</text>
@@ -13947,7 +13947,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <text x="229.616" y="71.374" size="1.778" layer="94">~1ms reset</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="5.08" y1="5.08" x2="109.22" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-<frame x1="38.1" y1="5.08" x2="78.74" y2="10.16" columns="8" rows="5" layer="94"/>
+<frame x1="45.72" y1="5.08" x2="78.74" y2="10.16" columns="8" rows="5" layer="94"/>
 <frame x1="78.74" y1="5.08" x2="109.22" y2="10.16" columns="8" rows="5" layer="94"/>
 <frame x1="0" y1="190.5" x2="248.92" y2="375.92" columns="8" rows="5" layer="94"/>
 <wire x1="3.81" y1="119.38" x2="88.9" y2="119.38" width="0.3048" layer="97" style="longdash"/>
