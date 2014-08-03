@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13156,6 +13156,68 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SJ_2W">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_3">
+<wire x1="1.27" y1="-1.016" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="0.762" x2="-1.27" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.27" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-0.762" x2="1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-0.762" x2="-1.524" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<smd name="1" x="-0.889" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="2" x="0" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<smd name="3" x="0.889" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
+<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M10">
@@ -13217,6 +13279,22 @@ We want bragging rights that we helped (in a very small part) to create your 8th
 <pin name="10" x="10.16" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="11" x="10.16" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="12" x="10.16" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="SJ_2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13392,6 +13470,45 @@ Standard 12-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDERJUMPER_2WAY" prefix="SJ" uservalue="yes">
+<description>&lt;b&gt;Solder Jumper&lt;/b&gt;
+2 way solder jumper</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="SJ_3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13888,17 +14005,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <part name="SP4" library="freetronics-original" deviceset="M10" device="0.1"/>
 <part name="JP4" library="freetronics-master-v1.1" deviceset="PINHD-2X3" device=""/>
 <part name="GND31" library="freetronics" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun" deviceset="5V" device=""/>
 <part name="XTL1" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="25MHZ"/>
 <part name="GND32" library="freetronics" deviceset="GND" device=""/>
 <part name="SW1" library="freetronics-master-v1" deviceset="TAC_SWITCH_2PIN" device="" value="RESET"/>
 <part name="IC2" library="freetronics-jon" deviceset="MCP24AA025E48" device=""/>
-<part name="U$9" library="SparkFun" deviceset="5V" device=""/>
 <part name="GND42" library="freetronics" deviceset="GND" device=""/>
 <part name="R18" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="4K7"/>
 <part name="R19" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="4K7"/>
 <part name="SJ1" library="freetronics-jon" deviceset="SJC" device="N" value=""/>
 <part name="SJ2" library="freetronics-jon" deviceset="SJC" device="N" value=""/>
+<part name="SJ3" library="freetronics-original" deviceset="SOLDERJUMPER_2WAY" device="T"/>
 </parts>
 <sheets>
 <sheet>
@@ -13920,7 +14036,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <circle x="238.76" y="220.98" radius="1.27" width="0.1524" layer="94"/>
 <text x="96.52" y="365.76" size="3.81" layer="94" ratio="12">Prototyping Area</text>
 <text x="7.62" y="12.7" size="3.048" layer="94">Freetronics Ethernet Shield for Arduino</text>
-<text x="81.28" y="6.858" size="1.778" layer="94">V2.0 (3-Jul-2013)</text>
+<text x="81.28" y="6.858" size="1.778" layer="94">V2.0 (3-Aug-2014)</text>
 <text x="7.366" y="6.858" size="1.778" layer="94">www.freetronics.org/es</text>
 <text x="48.26" y="6.858" size="1.778" layer="94">SKU: ES</text>
 <text x="33.02" y="177.8" size="1.778" layer="94">3V3 Power Supply</text>
@@ -14195,7 +14311,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <instance part="SP4" gate="G$1" x="200.66" y="264.16"/>
 <instance part="JP4" gate="A" x="121.92" y="213.36"/>
 <instance part="GND31" gate="1" x="139.7" y="205.74"/>
-<instance part="U$1" gate="G$1" x="139.7" y="218.44"/>
 <instance part="XTL1" gate="G$1" x="154.94" y="132.08" rot="R270"/>
 <instance part="GND32" gate="1" x="142.24" y="121.92"/>
 <instance part="SW1" gate="1" x="157.48" y="147.32"/>
@@ -14203,18 +14318,18 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <attribute name="NAME" x="198.12" y="295.148" size="1.778" layer="95"/>
 <attribute name="VALUE" x="193.04" y="281.94" size="1.778" layer="95"/>
 </instance>
-<instance part="U$9" gate="G$1" x="187.96" y="304.8"/>
 <instance part="GND42" gate="1" x="218.44" y="279.4"/>
-<instance part="R18" gate="G$1" x="180.34" y="297.18" smashed="yes" rot="R270">
-<attribute name="NAME" x="178.8414" y="290.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="178.8414" y="297.434" size="1.778" layer="96" rot="R90"/>
+<instance part="R18" gate="G$1" x="170.18" y="297.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="168.6814" y="290.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="168.6814" y="297.434" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="G$1" x="185.42" y="297.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="183.9214" y="290.83" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="183.9214" y="297.434" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SJ1" gate="G$1" x="172.72" y="289.56"/>
-<instance part="SJ2" gate="G$1" x="172.72" y="281.94"/>
+<instance part="SJ1" gate="G$1" x="160.02" y="289.56"/>
+<instance part="SJ2" gate="G$1" x="160.02" y="281.94"/>
+<instance part="SJ3" gate="G$1" x="177.8" y="304.8" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15181,26 +15296,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="JP4" gate="A" pin="2"/>
-<wire x1="127" y1="215.9" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
-<label x="132.08" y="215.9" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="5V"/>
-<wire x1="139.7" y1="215.9" x2="139.7" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC2" gate="G$1" pin="VCC"/>
-<wire x1="190.5" y1="292.1" x2="187.96" y2="292.1" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="292.1" x2="187.96" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="5V"/>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="302.26" x2="187.96" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="302.26" x2="185.42" y2="302.26" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="302.26" x2="187.96" y2="302.26" width="0.1524" layer="91"/>
-<junction x="185.42" y="302.26"/>
-<junction x="187.96" y="302.26"/>
-</segment>
 </net>
 <net name="1V8_OUT" class="0">
 <segment>
@@ -15344,6 +15439,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <wire x1="22.86" y1="256.54" x2="35.56" y2="256.54" width="0.1524" layer="91"/>
 <label x="22.86" y="256.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="190.5" y1="292.1" x2="187.96" y2="292.1" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+<wire x1="177.8" y1="309.88" x2="177.8" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="312.42" x2="187.96" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="312.42" x2="187.96" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="312.42" x2="154.94" y2="312.42" width="0.1524" layer="91"/>
+<junction x="177.8" y="312.42"/>
+<label x="157.48" y="312.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="A" pin="2"/>
+<wire x1="127" y1="215.9" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
+<label x="132.08" y="215.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RESERVED" class="0">
 <segment>
@@ -15362,8 +15473,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </segment>
 <segment>
 <pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="289.56" x2="162.56" y2="289.56" width="0.1524" layer="91"/>
-<label x="162.56" y="289.56" size="1.778" layer="95"/>
+<wire x1="154.94" y1="289.56" x2="144.78" y2="289.56" width="0.1524" layer="91"/>
+<label x="147.32" y="289.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -15375,8 +15486,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </segment>
 <segment>
 <pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="281.94" x2="162.56" y2="281.94" width="0.1524" layer="91"/>
-<label x="162.56" y="281.94" size="1.778" layer="95"/>
+<wire x1="154.94" y1="281.94" x2="144.78" y2="281.94" width="0.1524" layer="91"/>
+<label x="147.32" y="281.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -15449,7 +15560,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <wire x1="185.42" y1="287.02" x2="180.34" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="287.02" x2="180.34" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="281.94" x2="177.8" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="281.94" x2="165.1" y2="281.94" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="292.1" x2="185.42" y2="287.02" width="0.1524" layer="91"/>
 <junction x="185.42" y="287.02"/>
@@ -15458,12 +15569,28 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="SDA"/>
-<wire x1="190.5" y1="289.56" x2="180.34" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="289.56" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
 <pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="289.56" x2="177.8" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="292.1" x2="180.34" y2="289.56" width="0.1524" layer="91"/>
-<junction x="180.34" y="289.56"/>
+<wire x1="170.18" y1="289.56" x2="165.1" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="292.1" x2="170.18" y2="289.56" width="0.1524" layer="91"/>
+<junction x="170.18" y="289.56"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="302.26" x2="170.18" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="3"/>
+<wire x1="170.18" y1="304.8" x2="172.72" y2="304.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="R19" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="302.26" x2="185.42" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="304.8" x2="182.88" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
