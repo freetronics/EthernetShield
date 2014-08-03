@@ -14069,6 +14069,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <wire x1="3.81" y1="119.38" x2="88.9" y2="119.38" width="0.3048" layer="97" style="longdash"/>
 <text x="53.34" y="34.798" size="1.778" layer="94">to Arduino VIN</text>
 <text x="233.68" y="276.86" size="1.6764" layer="94" ratio="12" rot="R90">D11, D12, D13 may be used depending on Arduino model.</text>
+<text x="172.72" y="274.32" size="1.9304" layer="94" ratio="10">MCP24AA025E I2C
+ADDR: 0x50</text>
 </plain>
 <instances>
 <instance part="H2" gate="G$1" x="17.78" y="223.52" rot="MR180"/>
@@ -15598,4 +15600,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
